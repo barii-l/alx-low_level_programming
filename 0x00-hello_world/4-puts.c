@@ -1,28 +1,36 @@
+/*
+ *
+ *  * File: 4-puts.c
+ *
+ *   * Auth: Brennan D Baraban <375@holbertonschool.com>
+ *
+ *    */
+
+
+
 #include <stdio.h>
 
 
 
 /**
  *
- *  * main - Entry point
+ *  * main - Prints "Programming is like building a multilingual
  *
- *   *
+ *   *                puzzle, followed by a new line.
  *
- *    * Description: A C program that prints with put function
+ *    *
  *
- *     *
- *
- *      * Return: Always 0 (Success)
+ *     * Return: Always 0.
  *
  *      */
-
-
 
 int main(void)
 
 {
 
 		puts("\"Programming is like building a multilingual puzzle");
+
+
 
 			return (0);
 
