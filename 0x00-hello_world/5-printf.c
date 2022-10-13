@@ -1,15 +1,14 @@
 /*
- * File: five-printf.c
- *
- * Auth: Brennan D Baraban
+ * File: 5-printf.c
  */
 
 #include <stdio.h>
 
 /*
- * main - Prints with proper grammar, but the outcome is a piece of art, followed by a new line.
+ * main - Prints with "proper grammar, but the outcome is
+ * 	 a piece of art," followed by a new line.
  *
- * Return: Always zero.
+ * Return: Always 0.
  *
  */
 
