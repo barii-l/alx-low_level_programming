@@ -1,18 +1,23 @@
-#include<stdio.h>
+/*
+ * File: 5-printf.c
+ *
+ * Auth: Brennan D Baraban
+ *
+ */
+
+
+
+#include <stdio.h>
 
 
 
 /*
  *
- * main - Entry point
+ * main - Prints "with proper grammar, but the outcome is a piece of art," followed by a new line.
  *
- * Description: A C program that prints with printf function.
- *
- * Return: Always zero (Success)
+ * Return: Always 0.
  *
  */
-
-
 
 int main(void)
 
