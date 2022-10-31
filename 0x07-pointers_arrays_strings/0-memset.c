@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * _memset - ironnou
- * @s: pointer to char params
- * @b: data to change
- * @n: index
- * Return: *s
+ * _memset - fills the first nbytes of memory area point to by s const byte b
+ * @s: pointer
+ * @b: char b
+ * @n: unsigned int
+ * Return: pointer to s
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	char *ptr = s;
 
-	for (i = 0; i < n; i++)
-	{
-		s[i] = b;
-	}
-	return (s);
+	while (n--)
+		*s++ = b;
+	return (ptr);
 }
